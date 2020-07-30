@@ -13,7 +13,7 @@ function Menu() {
     return (
         <nav className='Menu'>
             <Link to='/'>
-                <img className='Logo' src={Logo} alt='Priflix'/> 
+                <img className='Logo' src={Logo} alt='Docesflix'/> 
             </Link>
             <ButtonLink as={Link} className='ButtonLink' to='/cadastro/video'>
                 Novo vídeo

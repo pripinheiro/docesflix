@@ -117,6 +117,7 @@ export const WatchButton = styled.button`
   outline: none;
   padding: 16px 24px;
   
+  
   @media (max-width: 800px) {
     display: block;
   }

@@ -4,12 +4,12 @@
 }
 
 :root {
-  --primary: #2A7AE4;
-  --black: #000000;
+  --primary: #1d8ca0 ;
+  --black: #191f2f;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5;
-  --grayDark: #141414; 
+  --grayDark: #303747; 
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
@@ -26,7 +26,7 @@ a {
 }
 
 #root {
-  min-height: calc(100vh - var(--bodyPaddingTop));
+  min-height: calc(60vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
 }
