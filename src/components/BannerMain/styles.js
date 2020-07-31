@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+ import styled from 'styled-components';
 
 export const BannerMainContainer = styled.section`
   height: 80vh;
@@ -36,12 +36,12 @@ export const BannerMainContainer = styled.section`
 `;
 
 export const ContentAreaContainer = styled.section`
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
   margin-left: 5%;
   margin-right: 5%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   
 
   @media (max-width: 800px) {
@@ -81,15 +81,16 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+
   @media (max-width: 800px) {
     display: none;
   }
 `;
 
 ContentAreaContainer.Title = styled.h2`
-  font-style: normal;
-  font-weight: 300;
   font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 32px;
@@ -104,12 +105,12 @@ export const WatchButton = styled.button`
   background-color: var(--white);
   border: 0;
   border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: var(--black);
+  display: none;
 
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
-  color: var(--black);
-  cursor: pointer;
-  display: none;
   font-size: 16px;
   font-weight: bold;
   margin-left: auto;
