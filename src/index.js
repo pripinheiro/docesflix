@@ -1,23 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import CadastroVideo from './pages/cadastro/videos'
-import CadastroCategoria from './pages/cadastro/categoria';
+import Home from './pages/Home';
+import CadastroVideo from './pages/Cadastros/videos';
+import CadastroCategoria from './pages/Cadastros/categoria';
 
-const Pagina404 = () => (<div>Página não encontrada - 404</div>)
+const Pagina404 = () => (<div>Página não encontrada - 404</div>);
 
 ReactDOM.render(
   <BrowserRouter>
-  <Switch>
-  <Route path='/' component={App} exact />
-  <Route path='/cadastro/video' component={CadastroVideo} />
-  <Route path='/cadastro/categoria' component={CadastroCategoria} />
+    <Switch>
+      <Route path="/" component={Home} exact />
+      <Route path="/cadastro/video" component={CadastroVideo} exact />
+      <Route path="/cadastro/categoria" component={CadastroCategoria} exact />
 
-  <Route component={Pagina404}/>
-  </Switch>
+      <Route component={Pagina404} />
+    </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const VideoContainer = styled.div`
+  padding-top: 56.25%;
   position: relative;
   width: 100%;
-  padding-top: 56.25%;
   
   @media (max-width: 800px) {
     display: none;

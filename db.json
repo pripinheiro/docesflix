@@ -2,15 +2,15 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Categoria 1",
-      "descricao": "Descricao da categoria 1",
-      "cor": "#ddd23d"
+      "categoriaId": 5,
+      "titulo": "Brigadeiro",
+      "url": "https://youtube.com"
     },
     {
       "id": 2,
-      "nome": "Categoria 2",
-      "descricao": "Descricao da categoria 2",
-      "cor": "#ddd23d"
+      "categoriaId": 2,
+      "titulo": "Bolo",
+      "url": "https://youtube.com"
     }
   ]
 }

@@ -1,4 +1,4 @@
-/*import styled from 'styled-components';
+import styled from 'styled-components';
 import Button from '../Button';
 
 export const LogoImage = styled.img`
@@ -33,4 +33,3 @@ export const MenuWrapper = styled.nav`
    }
 
 `;
-

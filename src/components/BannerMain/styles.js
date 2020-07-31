@@ -1,4 +1,4 @@
- import styled from 'styled-components';
+import styled from 'styled-components';
 
 export const BannerMainContainer = styled.section`
   height: 80vh;
@@ -24,13 +24,11 @@ export const BannerMainContainer = styled.section`
   }
 
   &:before {
-    top: 0;
     height: 100%;
     background: rgba(0,0,0,0.5);
   }
 
   &:after {
-    bottom: 0;
     background: linear-gradient(0deg, #141414 0%, transparent 100%);
   }
 `;
