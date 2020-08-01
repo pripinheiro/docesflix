@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import Menu from '../../components/Menu';
 import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
+import categoriesRepository from '../../repositories/categories';
 
 const AppWrapper = styled.div`
   background: var(--grayDark);
@@ -17,6 +18,13 @@ const AppWrapper = styled.div`
 `;
 
 function Home() {
+  useEffect(() => {
+    categoriesRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        console.log(categoriasComVideos);
+      });
+  });
+
   return (
     <AppWrapper>
       <Menu />

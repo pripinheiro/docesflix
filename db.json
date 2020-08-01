@@ -2,15 +2,38 @@
   "categorias": [
     {
       "id": 1,
-      "categoriaId": 5,
-      "titulo": "Brigadeiro",
-      "url": "https://youtube.com"
+      "titulo": 5,
+      "cor": "#ff3",
+      "link_extra": {
+        "text": "Brigadeiro", 
+        "url": "https://youtube.com"
+        } 
     },
+    
     {
       "id": 2,
-      "categoriaId": 2,
-      "titulo": "Bolo",
-      "url": "https://youtube.com"
-    }
-  ]
+      "titulo": 2,
+      "cor": "#f34",
+      "link_extra": {
+        "text": "Brigadeiro", 
+        "url": "https://youtube.com"
+      }
+    }  
+  ],
+"videos": [
+  {
+    "id": 1,
+    "categoriaId": 2,
+    "titulo": "Bolo de cenoura",
+    "url": "https://youtube.com"
+  },
+  {
+    "id": 7,
+    "categoriaId": 3,
+    "titulo": "Mousse",
+    "url": "https://youtube.com"
+  }
+
+
+]
 }
