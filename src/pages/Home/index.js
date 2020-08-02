@@ -22,9 +22,9 @@ function Home() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos.titulo}
+                videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription="Comece por aqui!"
+                videoDescription={dadosIniciais[0].descricao}
               />
               <Carousel
                 ignoreFirstVideo

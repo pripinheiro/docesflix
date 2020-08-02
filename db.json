@@ -4,6 +4,7 @@
       "id": 1,
       "titulo": "Bolos",
       "cor": "#ff3",
+      "descricao": "Teste",
       "link_extra": {
         "text": "Bolo de cenoura",
         "url": "https://www.youtube.com/watch?v=-pRC-FQXLEI"
@@ -13,6 +14,7 @@
       "id": 2,
       "titulo": "Doces",
       "cor": "#f34",
+      "descricao": "Teste3",
       "link_extra": {
         "text": "Bolo de brigadeiro",
         "url": "https://www.youtube.com/watch?v=XEoeYwVSgok"
