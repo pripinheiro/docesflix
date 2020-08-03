@@ -14,4 +14,4 @@ Utilizei HTML, CSS, JavaScript e React.
 
 
 ## 
-[Clique aqui](https://priflix-omega.vercel.app/) e conheça o projeto.
+[Clique aqui](https://docesflix.vercel.app/) e conheça o projeto.
